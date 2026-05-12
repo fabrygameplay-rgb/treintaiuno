@@ -8,7 +8,7 @@
         #cfd8dc 55%,   /* Gris de transición (como bruma) */
         #a1887f 85%,   /* Marrón tierra hermoso y cálido */
         #6d4c41 100%   /* Profundidad de tierra */
-        )}
+    )}
 
     header h1 {
         text-align: center;
@@ -104,4 +104,177 @@
         padding: 5px;
     }
 
+}
+
+/* TABLETS (Desde 768px hasta 1199px) */
+@media (max-width: 1199px) and (min-width: 768px) {
+
+    body {
+        box-sizing: border-box;
+        background: linear-gradient(
+        to bottom,
+        #87ceeb 0%,    /* Celeste alegre (Sky Blue) */
+        #e0f2f1 25%,   /* Celeste cálido/claro */
+        #cfd8dc 55%,   /* Gris de transición (como bruma) */
+        #a1887f 85%,   /* Marrón tierra hermoso y cálido */
+        #6d4c41 100%   /* Profundidad de tierra */
+    )}
+
+    body hr {
+        border: none;
+    }
+
+    header h1 {
+        text-align: center;
+        text-decoration: underline;
+        color:sienna;
+        -webkit-text-stroke: black 1px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    article p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 19px;
+        color:black;
+        padding: 0 20px;
+    }
+
+    .plant {
+        grid-template-columns: 250px 1fr; /* Imagen un poco más pequeña */
+        gap: 20px;
+        border-bottom: solid gray 1px;
+    }
+
+    .plant:nth-child(-n+24) p {
+        color: black;
+    }
+
+    img, .img {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 10px;
+    }
+
+    #species {
+        font-size: 26px;
+        color:yellowgreen;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        text-decoration: underline;
+        -webkit-text-stroke: black 1px;
+        margin-left: 20px;
+    }
+
+    section {
+        margin: 0px 20px;
+    }
+
+    section h2 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color:sandybrown;
+        -webkit-text-stroke: black 1px;
+    }
+
+    section p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color:bisque;
+    }
+
+    footer {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: gray;
+        color: whitesmoke;
+        text-align: center;
+        font-weight: bold;
+        padding: 5px;
+        margin-top: 10px;
+    }
+}
+
+/* CELULARES (Menos de 767px) */
+@media (max-width: 767px) {
+        body {
+        box-sizing: border-box;
+        background: linear-gradient(
+        to bottom,
+        #87ceeb 0%,    /* Celeste alegre (Sky Blue) */
+        #e0f2f1 25%,   /* Celeste cálido/claro */
+        #cfd8dc 55%,   /* Gris de transición (como bruma) */
+        #a1887f 85%,   /* Marrón tierra hermoso y cálido */
+        #6d4c41 100%   /* Profundidad de tierra */
+    )}
+
+    body hr {
+        border: none;
+    }
+
+    header h1 {
+        text-align: center;
+        text-decoration: underline;
+        color:sienna;
+        -webkit-text-stroke: black 1px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    article p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 19px;
+        color:black;
+        padding: 0 20px;
+    }
+
+    .plant {
+        grid-template-columns: 250px 1fr; /* Imagen un poco más pequeña */
+        gap: 20px;
+        border-bottom: solid gray 1px;
+    }
+
+    .plant:nth-child(-n+24) p {
+        color: black;
+    }
+
+    img, .img {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 10px;
+    }
+
+    #species {
+        font-size: 26px;
+        color:palevioletred;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    section {
+        margin: 0px 20px;
+    }
+
+    section h2 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color:sandybrown;
+        -webkit-text-stroke: black 1px;
+    }
+
+    section p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color:bisque;
+    }
+
+    footer {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: gray;
+        color: whitesmoke;
+        text-align: center;
+        font-weight: bold;
+        padding: 5px;
+        margin-top: 10px;
+    }
 }
